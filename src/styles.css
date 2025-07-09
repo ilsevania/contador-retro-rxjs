@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', monospace;
+  background-color: #f5f0e6; /* Beige retro */
+  color: #660000; /* Guinda profundo */
+  text-align: center;
+}
+
+/* Retro botones */
+button {
+  background-color: #660000;
+  color: #f5f0e6;
+  border: 2px solid #330000;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 10px 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #330000;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #990000;
+}
+
+/* Contador */
+h2 {
+  font-size: 40px;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
